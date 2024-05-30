@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    padding: 10px 40px;
+    color: black;
+    /* border: none; */
+
+    background-color: aliceblue;
+}
+#btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
